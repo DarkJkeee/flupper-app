@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:fontawesome="clr-namespace:FontAwesome"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:xe="clr-namespace:XamEffects;assembly=XamEffects"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Flupper.Views.BoardsListPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+             Command="{Binding QuitCommand}">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
+                                 Glyph="&#xf52b;"/>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem
+             Command="{Binding ProfileCommand}">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
+                                 Glyph="&#xf406;"/>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem
+             Clicked="ToolbarItem_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
+                                 Glyph="&#xf4ce;"/>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem
+             Command="{Binding NewBoardCommand}">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
+                                 Glyph="&#xf067;"/>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <Style TargetType="SwipeView">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter
+                                    Property="BackgroundColor"
+                                    Value="Transparent" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                     Command="{Binding RefreshCommand}">
+        <CollectionView
+        SelectionMode="Single"
+        SelectedItem="{Binding SelectedBoard}"
+        SelectionChanged="CollectionView_SelectionChanged"
+        ItemsSource="{Binding BoardsOnPage}">
+        <CollectionView.EmptyView>
+            <Label Text="You don't have any boards!"
+                   TextColor="{StaticResource TextColor}"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+        </CollectionView.EmptyView>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <SwipeView>
+                    <SwipeView.RightItems>
+                        <SwipeItems>
+                            <SwipeItemView
+                                CommandParameter="{Binding}"
+                                Invoked="SwipeItemView_Invoked">
+
+                                <Grid
+                                    xe:TouchEffect.Color="White"
+                                    xe:EffectsConfig.ChildrenInputTransparent="True"
+                                    Padding="5"
+                                    WidthRequest="120">
+
+                                    <pancake:PancakeView
+                                        CornerRadius="20"
+                                        HeightRequest="90"
+                                        IsClippedToBounds="True"
+                                        BackgroundColor="Red"/>
+
+                                    <Label
+                                        Text="Delete"
+                                        TextColor="Black"
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Center"/>
+
+                                </Grid>
+                            </SwipeItemView>
+                        </SwipeItems>
+                    </SwipeView.RightItems>
+        
+                    <SwipeView.Content>
+                        <Grid
+                            Padding="5">
+                            <pancake:PancakeView
+                                CornerRadius="20"
+                                HeightRequest="90"
+                                IsClippedToBounds="True"
+                                BackgroundColor="{StaticResource BackgroundColor}">
+                                <Grid
+                                    xe:TouchEffect.Color="White">
+                                    <StackLayout
+                                        VerticalOptions="Center">
+                                    <Label
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        HorizontalOptions="Center"
+                                        Text="{Binding Name}"
+                                        TextColor="Black" />
+                                    </StackLayout>
+                                </Grid>
+                            </pancake:PancakeView>
+                        </Grid>
+                    </SwipeView.Content>
+                </SwipeView>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+        </CollectionView>
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage>

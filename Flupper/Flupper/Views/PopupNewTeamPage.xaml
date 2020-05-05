@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    HasSystemPadding="True"
+    SystemPaddingSides="All"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    x:Class="Flupper.Views.PopupNewTeamPage">
+    <pages:PopupPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EntryStyle" TargetType="Entry">  
+                <Setter Property="PlaceholderColor" Value="#9cdaf1"/>
+                <Setter Property="TextColor" Value="#7dbbe6"/>  
+            </Style>  
+        </ResourceDictionary>  
+    </pages:PopupPage.Resources>  
+    <pages:PopupPage.Animation>  
+        <animations:ScaleAnimation PositionIn="Bottom"
+                                   PositionOut="Center"
+                                   ScaleIn="1" ScaleOut="0.7"
+                                   DurationIn="700" EasingIn="BounceOut" />
+    </pages:PopupPage.Animation>
+    <ScrollView HorizontalOptions="Center" VerticalOptions="Center">
+        <Frame BackgroundColor="White" HorizontalOptions="Center" Margin="15">
+            <StackLayout Padding="0">
+
+                <Label FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"
+                       TextColor="Black" Text="Create a team"/>
+
+
+                <Entry
+                    Margin="0,30,0,30"
+                    Placeholder="Name of team"
+                    Text="{Binding TeamName}" />
+
+
+                <Entry
+                    Margin="30,10,30,0"
+                    Placeholder="Member's name"
+                    Text="{Binding Name}" />
+
+                <Button
+                    Margin="30,0,30,30"
+                    HeightRequest="40"
+                    BackgroundColor="{StaticResource BackgroundColor}"
+                    Clicked="Button_Clicked"
+                    FontSize="16"
+                    Text="Add a new member"
+                    TextColor="{StaticResource TextColor}" />
+
+                <ListView
+                    HeightRequest="300"
+                    ItemsSource="{Binding Members}"/>
+                    
+
+                <Button
+                    HeightRequest="60"
+                    BackgroundColor="{StaticResource BackgroundColor}"
+                    Clicked="Button_Clicked_1"
+                    FontSize="16"
+                    Text="Create team"
+                    TextColor="{StaticResource TextColor}" />
+
+            </StackLayout>
+        </Frame>
+    </ScrollView>
+</pages:PopupPage>

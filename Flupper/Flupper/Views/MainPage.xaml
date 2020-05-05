@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Flupper.Views.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             Title="Flupper" >
+    <NavigationPage.TitleView>
+        <Label
+            FontAttributes="Bold"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="FLUPPER"
+            TextColor="Black"
+            VerticalOptions="Center" Margin="0,0,2,0" />
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid Margin="30" RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Button
+                        FontFamily="{StaticResource FontFamily}"
+                        Grid.Row="1"
+                        BackgroundColor="{StaticResource BackgroundColor}"
+                        Command="{Binding NavigateToLogin}"
+                        FontSize="16"
+                        Text="SIGN IN"
+                        TextColor="{StaticResource TextColor}" />
+
+                <Button
+                        FontFamily="{StaticResource FontFamily}"
+                        Grid.Row="2"
+                        BackgroundColor="Transparent"
+                        Command="{Binding NavigateToRegister}"
+                        FontSize="16"
+                        Text="SIGN UP"
+                        TextColor="{StaticResource TextColor}" />
+
+                <StackLayout
+                    Grid.Row="5"
+                    HorizontalOptions="CenterAndExpand"
+                    Orientation="Horizontal" Visual="Material">
+
+                    <Button
+                        FontFamily="{StaticResource FontFamily}"
+                        Text="FLUPPER"
+                        TextColor="{StaticResource BackgroundColor}"
+                        FontAttributes="Bold"
+                        FontSize="50" />
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             Title="New Card"
+             x:Class="Flupper.Views.NewCardPage">
+    <ContentPage.Content>
+        <Grid
+        Margin="30"
+        IsClippedToBounds="true"
+        RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label
+            Grid.Row="0"
+            FontAttributes="Bold"
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            Text="Create New Card"
+            TextColor="{StaticResource TextColor}"
+            VerticalOptions="CenterAndExpand" />
+
+        <Entry
+            Grid.Row="1"
+            Margin="0,0,0,80"
+            Placeholder="Name of Card"
+            Text="{Binding CardName}" />
+
+
+        <StackLayout Grid.Row="2" Margin="0,0,0,0"> 
+            <Label
+                FontAttributes="None"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="Choose a host"
+                TextColor="{StaticResource TextColor}"
+                VerticalOptions="CenterAndExpand" />
+
+            <Picker
+                Title="Teams"
+                ItemsSource="{Binding Teams}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedTeam}"
+                SelectedIndexChanged="Picker_SelectedIndexChanged"
+                TextColor="{StaticResource TextColor}" Margin="50,0,50,0"/>
+
+
+        </StackLayout>
+
+        <Picker
+                Grid.Row="3"
+                Title="Members"
+                IsEnabled="{Binding IsEnabled}"
+                ItemsSource="{Binding Members}"
+                SelectedItem="{Binding SelectedMember}"
+                TextColor="{StaticResource TextColor}" Margin="50,10,50,80"/>
+
+
+
+        <StackLayout Grid.Row="4" Margin="0, 80, 0, 0"> 
+            <Label
+                FontAttributes="None"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                Text="Color"
+                TextColor="{StaticResource TextColor}"
+                VerticalOptions="CenterAndExpand" />
+            <Picker
+                SelectedItem="{Binding SelectedColor}"
+                TextColor="{StaticResource TextColor}" Margin="0,0,0,100">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Red</x:String>
+                        <x:String>Blue</x:String>
+                        <x:String>Green</x:String>
+                        <x:String>Pink</x:String>
+                        <x:String>Yellow</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+
+        <Button
+            Grid.Row="5"
+            Command="{Binding CreateNewCard}"
+            FontSize="16"
+            Text="CREATE"
+            BackgroundColor="{StaticResource BackgroundColor}"
+            TextColor="{StaticResource TextColor}"
+            Margin="0,40" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

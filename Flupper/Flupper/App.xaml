@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<prism:PrismApplication
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.DryIoc;assembly=Prism.DryIoc.Forms"
+             x:Class="Flupper.App">
+	<Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="BackgroundColor">#80FA82</Color>
+            <Color x:Key="TextColor">#333333</Color>
+            <Font x:Key="FontFamily">FA5Brands-Regular</Font>
+
+            <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Font Awesome 5 Free" />
+                <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free" />
+                <On Platform="UWP" Value="Assets/Fonts/fa-solid-900.ttf#Font Awesome 5 Free" />
+            </OnPlatform>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</prism:PrismApplication>

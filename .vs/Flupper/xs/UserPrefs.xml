@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{1AD72B6B-28C4-4521-B5A2-94236D5A492F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Flupper/Flupper/ViewModels/BoardsListPageViewModel.cs">
+    <Files>
+      <File FileName="Flupper/Flupper/Views/BoardsListPage.xaml" Line="117" Column="38" />
+      <File FileName="Flupper/Flupper/ViewModels/BoardsListPageViewModel.cs" Line="69" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Flupper" expanded="True">
+            <Node name="Flupper" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="BoardsListPageViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+            <Node name="Flupper.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Flupper.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.Flupper.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BCA7FEF2-A83D-4E0D-BA30-2E8810F004A2" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/Flupper.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/Flupper.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/Flupper.iOS.csproj",
+        "projectName": "Flupper.iOS",
+        "projectPath": "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/Flupper.iOS.csproj",
+        "packagesPath": "/Users/glebburstejn/.nuget/packages/",
+        "outputPath": "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/glebburstejn/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/Flupper.csproj": {
+                "projectPath": "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/Flupper.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Azure.Storage.Common": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.2, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[1.68.2.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "XamEffects": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.726, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[1.3.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/Flupper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/Flupper.csproj",
+        "projectName": "Flupper",
+        "projectPath": "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/Flupper.csproj",
+        "packagesPath": "/Users/glebburstejn/.nuget/packages/",
+        "outputPath": "/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/glebburstejn/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Azure.Storage.Common": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.2, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[1.68.2.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "XamEffects": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.726, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[1.3.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

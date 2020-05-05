@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:xe="clr-namespace:XamEffects;assembly=XamEffects"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             xmlns:SkiaSharp="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             Title="{Binding Title}"
+             BackgroundColor="{Binding BackgroundColor}"
+             x:Class="Flupper.Views.BoardPage">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+                     Command="{Binding NewCardCommand}">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource
+                    Color="Black" Size="25"
+                    FontFamily="{DynamicResource MaterialFontFamily}"
+                    Glyph="&#xf067;" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <Grid Padding="0,40">
+        <CarouselView
+            CurrentItem="{Binding CurrentItem}"
+            ItemsSource="{Binding Cards}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="32, 64, 32, 64">
+                        <pancake:PancakeView CornerRadius="35" BackgroundColor="#FFFFFF">
+                            <pancake:PancakeView VerticalOptions="FillAndExpand" HeightRequest="400" CornerRadius="35">
+                                <Grid>
+                                    <StackLayout Orientation="Horizontal" Margin="0">
+                                        <Button
+                                            Text="X" BackgroundColor="Transparent"
+                                            Margin="5,10,0,10" Clicked="Button_Clicked"
+                                            VerticalOptions="Start" HorizontalOptions="Start"
+                                            FontAttributes="Bold" FontSize="20"
+                                            FontFamily="Montserrat-ExtraBold" TextColor="#55000000"/>
+
+                                        <Editor
+                                            HeightRequest="50" WidthRequest="150"
+                                            Completed="Editor_Completed_1"
+                                            Text="{Binding Name}" FontFamily="Montserrat-ExtraBold"
+                                            TextColor="#55000000" FontSize="20" FontAttributes="Bold" 
+                                            HorizontalOptions="CenterAndExpand" VerticalOptions="Start"
+                                            Margin="60,10,0,10" MaxLength="12"/>
+
+                                        <ImageButton
+                                            xe:TouchEffect.Color="White"
+                                            Margin="0,10,5,0" Clicked="ImageButton_Clicked"
+                                            VerticalOptions="Start" HorizontalOptions="End">
+                                            <ImageButton.Source>
+                                                <FontImageSource
+                                                    Color="#55000000" Size="25"
+                                                    FontFamily="{DynamicResource MaterialFontFamily}"
+                                                    Glyph="&#xf0f3;" />
+                                            </ImageButton.Source>
+                                        </ImageButton>
+
+                                        <ImageButton xe:TouchEffect.Color="White"
+                                            Margin="0,8,5,0" Clicked="ImageButton_Clicked_1"
+                                            VerticalOptions="Start" HorizontalOptions="End">
+                                            <ImageButton.Source>
+                                                <FontImageSource
+                                                    Color="#55000000" Size="25"
+                                                    FontFamily="{DynamicResource MaterialFontFamily}"
+                                                    Glyph="&#xf129;" />
+                                            </ImageButton.Source>
+                                        </ImageButton>
+
+                                        <ImageButton xe:TouchEffect.Color="White"
+                                            Margin="0,10,10,0" Clicked="ImageButton_Clicked_2"
+                                            VerticalOptions="Start" HorizontalOptions="End">
+                                            <ImageButton.Source>
+                                                <FontImageSource
+                                                    Color="#55000000" Size="25"
+                                                    FontFamily="{DynamicResource MaterialFontFamily}"
+                                                    Glyph="&#xf55d;" />
+                                            </ImageButton.Source>
+                                        </ImageButton>
+                                    </StackLayout>
+
+                                    <StackLayout
+                                        Margin="10,55,10,64" WidthRequest="100" HeightRequest="100">
+                                        <ScrollView>
+                                            <Editor
+                                                FontAttributes="Bold" FontFamily="Montserrat-ExtraBold"
+                                                AutoSize="TextChanges" Completed="Editor_Completed" Keyboard="Default"
+                                                Text="{Binding Text}" Placeholder="Type something..."/>
+
+                                        </ScrollView>
+
+                                    </StackLayout>
+
+                                    <Grid
+                                        IsVisible="False">
+                                        <SkiaSharp:SKCanvasView
+                                            
+                                            PaintSurface="SKCanvasView_PaintSurface"
+                                            EnableTouchEvents="True"
+                                            Touch="SKCanvasView_Touch"/>
+                                    </Grid>
+                                </Grid>
+                            </pancake:PancakeView>
+                        </pancake:PancakeView>
+                    </Grid>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "witAm6IVKuQhHGShwqxXA3Hu638jM9u56I1gGA86lf7qO1foJXZqegZRUJCyOS3mI0d4u22dRp8Hcg/oUFlLpA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\glebburstejn\\source\\repos\\Flupper\\Flupper\\Flupper.iOS\\Flupper.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\glebburstejn\\.nuget\\packages\\dryioc.dll\\4.0.4\\dryioc.dll.4.0.4.nupkg.sha512",
+    "C:\\Users\\glebburstejn\\.nuget\\packages\\prism.core\\7.2.0.1367\\prism.core.7.2.0.1367.nupkg.sha512",
+    "C:\\Users\\glebburstejn\\.nuget\\packages\\prism.dryioc.forms\\7.2.0.1367\\prism.dryioc.forms.7.2.0.1367.nupkg.sha512",
+    "C:\\Users\\glebburstejn\\.nuget\\packages\\prism.forms\\7.2.0.1367\\prism.forms.7.2.0.1367.nupkg.sha512",
+    "C:\\Users\\glebburstejn\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\glebburstejn\\.nuget\\packages\\xamarin.forms\\3.6.0.344457\\xamarin.forms.3.6.0.344457.nupkg.sha512"
+  ],
+  "logs": []
+}

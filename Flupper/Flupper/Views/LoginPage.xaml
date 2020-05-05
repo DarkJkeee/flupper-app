@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="Flupper.Views.LoginPage"
+             NavigationPage.HasNavigationBar="False"
+             Title="Login">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid
+                Margin="30"
+                IsClippedToBounds="true"
+                RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+
+                <Label
+                    Grid.Row="0"
+                    HorizontalOptions="Center"
+                    FontFamily="{StaticResource FontFamily}"
+                    FontSize="50"
+                    TextColor="{StaticResource BackgroundColor}"
+                    Text="FLUPPER"
+                    FontAttributes="Bold"/>
+
+                <Entry
+                    Grid.Row="2"
+                    Margin="0,0,0,10"
+                    BackgroundColor="Transparent"
+                    Keyboard="Email"
+                    Placeholder="Enter your login"
+                    Text="{Binding Login}" />
+
+                <Entry
+                    Grid.Row="3"
+                    Margin="0,0,0,10"
+                    BackgroundColor="Transparent"
+                    IsPassword="True"
+                    Placeholder="Enter your password"
+                    Text="{Binding Password}" />
+
+                <Button
+                    Grid.Row="4"
+                    BackgroundColor="{StaticResource BackgroundColor}"
+                    Command="{Binding NavigateToProgram}"
+                    FontSize="16"
+                    Text="SIGN IN"
+                    TextColor="{StaticResource TextColor}" />
+
+                <Label
+                    Grid.Row="5"
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="14"
+                    Text="OR"
+                    TextColor="{StaticResource TextColor}"
+                    VerticalOptions="Center" />
+
+                <Button
+                    Grid.Row="6"
+                    BackgroundColor="Transparent"
+                    Command="{Binding NavigateToRegister}"
+                    FontSize="16"
+                    Text="SIGN UP"
+                    TextColor="{StaticResource TextColor}" />
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
