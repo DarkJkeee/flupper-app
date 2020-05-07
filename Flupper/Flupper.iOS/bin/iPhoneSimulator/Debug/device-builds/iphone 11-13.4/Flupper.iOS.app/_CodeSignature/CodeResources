@@ -46,11 +46,11 @@
 		</data>
 		<key>Flupper.dll</key>
 		<data>
-		2aObRGK7E6jEvEZO6G6fsl+koBk=
+		rd4s4uafBK1pXWKJEsGJ22u8kNs=
 		</data>
 		<key>Flupper.iOS.exe</key>
 		<data>
-		cZX7t2xIrYsyAUldioiaSsq+oQ8=
+		eIF4sc9xQuAfE6rmgdrW0EMQdkQ=
 		</data>
 		<key>Flupper.iOS.exe.mdb</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Flupper.iOS.pdb</key>
 		<data>
-		i2PIFhgO+/Eg76vcCD/3R8MhJlY=
+		moY1tpEJYHlY7iZe9FtKEn5gGpM=
 		</data>
 		<key>Flupper.pdb</key>
 		<data>
-		0BAkI7gc0kBF6nRN6swWJvJr5Vo=
+		5cFEzmZW2gzYrn7zz/5gVjGDzhE=
 		</data>
 		<key>FlupperLogo.png</key>
 		<data>
@@ -530,7 +530,7 @@
 		</data>
 		<key>archived-expanded-entitlements.xcent</key>
 		<data>
-		uVC4UsEAjsaAorNMAW+mHUKgk9o=
+		vO/gVYVVkU1zHBaxd4xJ53/ga5k=
 		</data>
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>
 		<data>
@@ -813,22 +813,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2aObRGK7E6jEvEZO6G6fsl+koBk=
+			rd4s4uafBK1pXWKJEsGJ22u8kNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			oAhPYiuXlRE5f+u0ER3/oDi+o2g63yHSE56YMVUIVeI=
+			2iqtLc9rAkTKFSaEfV/6WYrE0OLaAwQS/FF/BK8fEoA=
 			</data>
 		</dict>
 		<key>Flupper.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cZX7t2xIrYsyAUldioiaSsq+oQ8=
+			eIF4sc9xQuAfE6rmgdrW0EMQdkQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/bzI/Y6L9KzepmYELwUOvm9HfFkvZcprL3bPbB0KBu4=
+			tSNuHZGZZEL+9IARsrw56ZpbQZZy+FbBWFCl1sekIgU=
 			</data>
 		</dict>
 		<key>Flupper.iOS.exe.mdb</key>
@@ -846,22 +846,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i2PIFhgO+/Eg76vcCD/3R8MhJlY=
+			moY1tpEJYHlY7iZe9FtKEn5gGpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			BWESvbVaznu5PWHouFUfmnfFknH0RXvnaAgJgLA5vA8=
+			3SL1N5D2axiSMwcmI2anrmtmblE6ajtDJQ1C1PBxnTw=
 			</data>
 		</dict>
 		<key>Flupper.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0BAkI7gc0kBF6nRN6swWJvJr5Vo=
+			5cFEzmZW2gzYrn7zz/5gVjGDzhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			0dAtzvf+5tldpOQo32+np4As45me7IND7Xl40DPb6nA=
+			Qq52nUx7u+j9N5vdyiXjtsjwL49SRn7c5Zqur72tk/4=
 			</data>
 		</dict>
 		<key>FlupperLogo.png</key>
@@ -2122,11 +2122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uVC4UsEAjsaAorNMAW+mHUKgk9o=
+			vO/gVYVVkU1zHBaxd4xJ53/ga5k=
 			</data>
 			<key>hash2</key>
 			<data>
-			e/joE7ObU4L5jO1+1JUxZxM/FUkgLPoVg6yex5UVEFk=
+			l3BKiWC0+szu9UOXoI+10KRWJHw2JzWSFaoqJ98iZWw=
 			</data>
 		</dict>
 		<key>ca/Xamarin.Forms.Platform.iOS.resources.dll</key>

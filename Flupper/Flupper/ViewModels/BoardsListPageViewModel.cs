@@ -59,8 +59,8 @@ namespace Flupper.ViewModels
 
             NewBoardCommand = new DelegateCommand(NewBoardCommandCall);
             SelectItemCommand = new DelegateCommand(SelectItemCommandCall);
-            QuitCommand = new DelegateCommand(async () => await navigationService.NavigateAsync("/NavigationPage/MainPage"));
-            RefreshCommand = new DelegateCommand(() => IsRefreshing = false);
+            QuitCommand = new DelegateCommand(async () => await navigationService.NavigateAsync("/MainPage"));
+            RefreshCommand = new DelegateCommand(RefreshCommandCall);
         }
 
         public async void SelectItemCommandCall()
@@ -97,6 +97,12 @@ namespace Flupper.ViewModels
                 {"mainUser", MainUser }
             };
             await navigationService.NavigateAsync("NewBoardPage", navParameters);
+        }
+
+        private void RefreshCommandCall()
+        {
+            IsRefreshing = false;
+            BoardsOnPage = MainUser.Boards;
         }
 
         public override void OnNavigatedTo(INavigationParameters parameters)

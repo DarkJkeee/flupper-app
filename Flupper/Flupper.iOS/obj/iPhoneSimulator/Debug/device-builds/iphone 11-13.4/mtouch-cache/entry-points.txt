@@ -65,69 +65,13 @@ Function=xamarin_log
 	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/mscorlib.dll
 Function=xamarin_get_locale_country_code
 	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/mscorlib.dll
-Function=SystemNative_GetDomainSocketSizes
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.Core.dll
-Function=NetSecurityNative_ReleaseGssBuffer
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMinorStatus
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DisplayMajorStatus
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportUserName
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ImportPrincipalName
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseName
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredSpNego
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitiateCredWithPassword
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_ReleaseCred
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContext
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_InitSecContextEx
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_AcceptSecContext
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_DeleteSecContext
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_GetUser
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Wrap
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=NetSecurityNative_Unwrap
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-Function=xamarin_start_wwan
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=BrotliDecoderCreateInstance
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompressStream
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDecompress
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderDestroyInstance
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliDecoderIsFinished
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCreateInstance
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderSetParameter
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompressStream
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderHasMoreOutput
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderDestroyInstance
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
-Function=BrotliEncoderCompress
-	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=xamarin_find_protocol_wrapper_type
 	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_release_block_on_main_thread
 	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
 Function=xamarin_get_block_descriptor
 	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__NMatrix4_objc_msgSend
@@ -1140,6 +1084,62 @@ Function=xamarin_init_nsthread
 	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_os_log
 	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContextEx
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_GetUser
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_GetDomainSocketSizes
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.Core.dll
+Function=BrotliDecoderCreateInstance
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompressStream
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompress
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDestroyInstance
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderIsFinished
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCreateInstance
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderSetParameter
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompressStream
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderHasMoreOutput
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderDestroyInstance
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompress
+	/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/mtouch-cache/1-Link/System.IO.Compression.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

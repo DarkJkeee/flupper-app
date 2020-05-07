@@ -1,5 +1,7 @@
 FormsViewGroup
+Plugin.LocalNotifications
 Prism.Forms
+Rg.Plugins.Popup
 SkiaSharp
 SkiaSharp.Views.Android
 SkiaSharp.Views.Forms
@@ -46,6 +48,3 @@ Xamarin.Forms.PancakeView
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 XamEffects.Droid
-Rg.Plugins.Popup
-LocalNotifications.Plugin
-Plugin.LocalNotifications

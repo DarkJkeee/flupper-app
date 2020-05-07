@@ -10,20 +10,45 @@
     
     <ContentPage.ToolbarItems>
         <ToolbarItem
+             Priority="0"
              Command="{Binding QuitCommand}">
             <ToolbarItem.IconImageSource>
                 <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
                                  Glyph="&#xf52b;"/>
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
+        <ToolbarItem Order="Primary" Priority="0"/> 
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
+        <ToolbarItem Order="Primary" Priority="0"/>
         <ToolbarItem
-             Command="{Binding ProfileCommand}">
-            <ToolbarItem.IconImageSource>
-                <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
-                                 Glyph="&#xf406;"/>
-            </ToolbarItem.IconImageSource>
-        </ToolbarItem>
-        <ToolbarItem
+            Priority="1"
              Clicked="ToolbarItem_Clicked">
             <ToolbarItem.IconImageSource>
                 <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
@@ -31,6 +56,7 @@
             </ToolbarItem.IconImageSource>
         </ToolbarItem>
         <ToolbarItem
+            Priority="1"
              Command="{Binding NewBoardCommand}">
             <ToolbarItem.IconImageSource>
                 <FontImageSource FontFamily="{DynamicResource MaterialFontFamily}" Color="Black" Size="20"
@@ -49,7 +75,7 @@
                             <VisualState.Setters>
                                 <Setter
                                     Property="BackgroundColor"
-                                    Value="Transparent" />
+                                    Value="White" />
                             </VisualState.Setters>
                         </VisualState>
                     </VisualStateGroup>

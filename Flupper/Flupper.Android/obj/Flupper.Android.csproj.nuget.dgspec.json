@@ -62,7 +62,7 @@
             },
             "SkiaSharp.Views.Forms": {
               "target": "Package",
-              "version": "[1.68.1.1, )"
+              "version": "[1.68.2.1, )"
             },
             "WindowsAzure.Storage": {
               "target": "Package",
@@ -102,7 +102,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.617, )"
+              "version": "[4.6.0.726, )"
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",

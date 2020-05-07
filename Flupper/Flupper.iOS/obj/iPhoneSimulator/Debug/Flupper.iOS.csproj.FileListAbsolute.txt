@@ -166,17 +166,6 @@ C:/Users/glebburstejn/source/repos/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulat
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/bin/iPhoneSimulator/Debug/Flupper.dll
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/bin/iPhoneSimulator/Debug/Flupper.pdb
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/ibtool/_BundleResourceWithLogicalName.items
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_PartialAppManifest.items
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_BundleResourceWithLogicalName.items
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_PartialAppManifest.items
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_BundleResourceWithLogicalName.items
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default-568h@2x.png
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default-Portrait.png
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default-Portrait@2x.png
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default.png
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default@2x.png
-/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/Flupper.iOS.csprojAssemblyReference.cache
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/Flupper.iOS.csproj.CoreCompileInputs.cache
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
@@ -212,4 +201,15 @@ C:/Users/glebburstejn/source/repos/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulat
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.pdb
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/bin/iPhoneSimulator/Debug/Plugin.LocalNotifications.Abstractions.dll
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/bin/iPhoneSimulator/Debug/Plugin.LocalNotifications.dll
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_PartialAppManifest.items
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/actool/_BundleResourceWithLogicalName.items
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_PartialAppManifest.items
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default-568h@2x.png
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default-Portrait.png
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default-Portrait@2x.png
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default.png
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/Default@2x.png
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/iTunesArtwork@3x.png
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.4/optimized/

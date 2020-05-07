@@ -25,6 +25,7 @@
                 </Grid.RowDefinitions>
 
                 <Label
+                    Margin="0, 40, 0, 0"
                     Grid.Row="0"
                     HorizontalOptions="Center"
                     FontFamily="{StaticResource FontFamily}"

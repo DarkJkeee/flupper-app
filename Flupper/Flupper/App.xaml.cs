@@ -22,7 +22,7 @@ namespace Flupper
         protected override async void OnInitialized()
         {
             InitializeComponent();
-            await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(MainPage));
+            await NavigationService.NavigateAsync(nameof(MainPage));
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)

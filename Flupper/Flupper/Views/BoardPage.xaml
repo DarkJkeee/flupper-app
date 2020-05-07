@@ -50,7 +50,7 @@
 
                                         <ImageButton
                                             xe:TouchEffect.Color="White"
-                                            Margin="0,10,5,0" Clicked="ImageButton_Clicked"
+                                            Margin="0,10,20,0" Clicked="ImageButton_Clicked"
                                             VerticalOptions="Start" HorizontalOptions="End">
                                             <ImageButton.Source>
                                                 <FontImageSource
@@ -61,24 +61,13 @@
                                         </ImageButton>
 
                                         <ImageButton xe:TouchEffect.Color="White"
-                                            Margin="0,8,5,0" Clicked="ImageButton_Clicked_1"
+                                            Margin="0,8,15,0" Clicked="ImageButton_Clicked_1"
                                             VerticalOptions="Start" HorizontalOptions="End">
                                             <ImageButton.Source>
                                                 <FontImageSource
                                                     Color="#55000000" Size="25"
                                                     FontFamily="{DynamicResource MaterialFontFamily}"
                                                     Glyph="&#xf129;" />
-                                            </ImageButton.Source>
-                                        </ImageButton>
-
-                                        <ImageButton xe:TouchEffect.Color="White"
-                                            Margin="0,10,10,0" Clicked="ImageButton_Clicked_2"
-                                            VerticalOptions="Start" HorizontalOptions="End">
-                                            <ImageButton.Source>
-                                                <FontImageSource
-                                                    Color="#55000000" Size="25"
-                                                    FontFamily="{DynamicResource MaterialFontFamily}"
-                                                    Glyph="&#xf55d;" />
                                             </ImageButton.Source>
                                         </ImageButton>
                                     </StackLayout>

@@ -1,8 +1,10 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Prism;
 using Prism.Ioc;
+using Xamarin.Forms;
 
 namespace Flupper.Droid
 {
@@ -15,8 +17,10 @@ namespace Flupper.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-
+            Forms.SetFlags("CollectionView_Experimental");
+            Forms.SetFlags("SwipeView_Experimental");
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            XamEffects.Droid.Effects.Init();
             LoadApplication(new App(new AndroidInitializer()));
         }
     }

@@ -11,9 +11,9 @@
             IsClippedToBounds="true"
             RowSpacing="0">
             <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
                 <RowDefinition Height="2*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
@@ -32,12 +32,12 @@
                 Placeholder="Name"
                 Text="{Binding Name}" />
 
+            <ScrollView Grid.Row="2" Margin="0,0,0,100">
             <Editor
-                Grid.Row="2"
-                Margin="0,-80,0,10"
                 Keyboard="Default"
                 Placeholder="Description"
-                Text="{Binding Description}" />
+                Text="{Binding Description}"/>
+            </ScrollView>
 
             <Button
                 Grid.Row="3"

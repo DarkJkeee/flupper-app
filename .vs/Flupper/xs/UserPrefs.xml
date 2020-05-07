@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{1AD72B6B-28C4-4521-B5A2-94236D5A492F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Flupper/Flupper/ViewModels/BoardsListPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Flupper/Flupper/Views/BoardsListPage.xaml">
     <Files>
-      <File FileName="Flupper/Flupper/Views/BoardsListPage.xaml" Line="117" Column="38" />
-      <File FileName="Flupper/Flupper/ViewModels/BoardsListPageViewModel.cs" Line="69" Column="14" />
+      <File FileName="Flupper/Flupper/Views/NewBoardPage.xaml" Line="36" Column="20" />
+      <File FileName="Flupper/Flupper/ViewModels/NewBoardPageViewModel.cs" Line="37" Column="20" />
+      <File FileName="Flupper/Flupper/ViewModels/BoardsListPageViewModel.cs" Line="88" Column="47" />
+      <File FileName="Flupper/Flupper/Views/BoardsListPage.xaml" Line="100" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Flupper" expanded="True">
             <Node name="Flupper" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="BoardsListPageViewModel.cs" selected="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="BoardsListPage.xaml" selected="True" />
               </Node>
-              <Node name="Views" expanded="True" />
             </Node>
+            <Node name="Flupper.Android" expanded="True" />
             <Node name="Flupper.iOS" expanded="True" />
           </Node>
         </State>
