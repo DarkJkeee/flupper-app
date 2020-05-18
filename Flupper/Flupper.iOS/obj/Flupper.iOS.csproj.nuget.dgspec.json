@@ -38,11 +38,11 @@
           "dependencies": {
             "Azure.Storage.Blobs": {
               "target": "Package",
-              "version": "[12.4.1, )"
+              "version": "[12.4.2, )"
             },
             "Azure.Storage.Common": {
               "target": "Package",
-              "version": "[12.4.0, )"
+              "version": "[12.4.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -82,7 +82,7 @@
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
-              "version": "[1.3.7, )"
+              "version": "[1.4.2, )"
             }
           }
         }
@@ -133,11 +133,11 @@
           "dependencies": {
             "Azure.Storage.Blobs": {
               "target": "Package",
-              "version": "[12.4.1, )"
+              "version": "[12.4.2, )"
             },
             "Azure.Storage.Common": {
               "target": "Package",
-              "version": "[12.4.0, )"
+              "version": "[12.4.1, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -179,7 +179,7 @@
             },
             "Xamarin.Forms.PancakeView": {
               "target": "Package",
-              "version": "[1.3.7, )"
+              "version": "[1.4.2, )"
             }
           },
           "imports": [

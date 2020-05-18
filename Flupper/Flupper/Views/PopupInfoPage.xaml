@@ -27,13 +27,15 @@
                 <Label FontAttributes="Bold" FontSize="20" HorizontalOptions="Center"
                        TextColor="Black" Text="{Binding Name}"/>
 
-                <StackLayout Orientation="Horizontal">
+                <StackLayout Orientation="Horizontal" Padding="0" Margin="0,15,0,0">
                     <Label Text="Host:" HorizontalOptions="Start" FontSize="16" FontAttributes="Bold"/>
 
                     <Label FontAttributes="Bold" FontSize="16" HorizontalOptions="Center"
                            TextColor="Black" Text="{Binding MemberName}"/>
 
                 </StackLayout>
+
+                    <Label Text="{Binding Date}" HorizontalOptions="Center" FontSize="16" FontAttributes="Bold" Margin="0,15,0,0"/>
 
                 <BoxView CornerRadius="20" Color="{Binding ColorOfCard}"
                          HeightRequest="80" WidthRequest="160"/>

@@ -15,7 +15,6 @@ namespace Flupper.ViewModels
 {
     public class RegisterPageViewModel : ViewModelBase
     {
-        
         private User user;
         private INavigationService navigationService;
 
@@ -37,6 +36,17 @@ namespace Flupper.ViewModels
 
         private async void SignUpCommandCall()
         {
+            if (Name == null)
+                Name = "";
+
+            if (Password == null)
+                Password = "";
+
+            if (Login == null)
+                Login = "";
+            if (Email == null)
+                Email = "";
+
             if (Password.Length >= 8)
             {
                 user = new User(Name, Password, Login, Email);

@@ -68,7 +68,7 @@
                     Grid.Row="5"
                     FontSize="Small"
                     HorizontalOptions="CenterAndExpand"
-                    Text="I agree with Terms and Conditions"
+                    Text="I trust the developers of this application"
                     TextColor="{StaticResource TextColor}"
                     VerticalOptions="Center" />
 
@@ -95,7 +95,6 @@
                     FontSize="16"
                     Text="CANCEL"
                     TextColor="{StaticResource TextColor}" />
-
 
             </Grid>
     </ContentPage.Content>

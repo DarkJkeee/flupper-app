@@ -106,7 +106,6 @@
                             <SwipeItemView
                                 CommandParameter="{Binding}"
                                 Invoked="SwipeItemView_Invoked">
-
                                 <Grid
                                     xe:TouchEffect.Color="White"
                                     xe:EffectsConfig.ChildrenInputTransparent="True"
@@ -117,7 +116,7 @@
                                         CornerRadius="20"
                                         HeightRequest="90"
                                         IsClippedToBounds="True"
-                                        BackgroundColor="Red"/>
+                                        BackgroundColor="LightPink"/>
 
                                     <Label
                                         Text="Delete"
@@ -131,7 +130,6 @@
                             </SwipeItemView>
                         </SwipeItems>
                     </SwipeView.RightItems>
-        
                     <SwipeView.Content>
                         <Grid
                             Padding="5">

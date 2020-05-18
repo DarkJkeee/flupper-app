@@ -1,4 +1,5 @@
-﻿using Foundation;
+﻿using System;
+using Foundation;
 using Prism;
 using Prism.Ioc;
 using UIKit;
@@ -28,7 +29,6 @@ namespace Flupper.iOS
             global::Xamarin.Forms.Forms.Init();
             Rg.Plugins.Popup.Popup.Init();
             XamEffects.iOS.Effects.Init();
-            LoadApplication(new App(new iOSInitializer()));
 
             if (UIDevice.CurrentDevice.CheckSystemVersion(10, 0))
             {
@@ -36,6 +36,7 @@ namespace Flupper.iOS
                 UNUserNotificationCenter.Current.RequestAuthorization(
                         UNAuthorizationOptions.Alert | UNAuthorizationOptions.Badge | UNAuthorizationOptions.Sound,
                         (approved, error) => { });
+                UNUserNotificationCenter.Current.Delegate = new UserNotificationCenterDelegate();
             }
             else if (UIDevice.CurrentDevice.CheckSystemVersion(8, 0))
             {
@@ -47,6 +48,7 @@ namespace Flupper.iOS
                 UIApplication.SharedApplication.RegisterUserNotificationSettings(settings);
             }
 
+            LoadApplication(new App(new iOSInitializer()));
             return base.FinishedLaunching(app, options);
         }
     }

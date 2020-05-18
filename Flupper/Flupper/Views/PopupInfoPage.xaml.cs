@@ -22,6 +22,17 @@ namespace Flupper.Views
             }
         }
 
+        private string date;
+        public string Date
+        {
+            get => date;
+            set
+            {
+                date = value;
+                OnPropertyChanged();
+            }
+        }
+
         private string name;
         public string Name
         {
@@ -51,6 +62,11 @@ namespace Flupper.Views
             ColorOfCard = card.Color;
             Name = card.Name;
             MemberName = card.Member;
+
+            if (card.NotificationDate < DateTime.Now.Date)
+                Date = "";
+            else
+                Date = card.NotificationDate.ToString();
         }
 
         protected override void OnAppearing()

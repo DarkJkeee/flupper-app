@@ -29,7 +29,7 @@
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <Grid Padding="32, 64, 32, 64">
-                        <pancake:PancakeView CornerRadius="35" BackgroundColor="#FFFFFF">
+                        <pancake:PancakeView CornerRadius="25" BackgroundColor="#FFFFFF">
                             <pancake:PancakeView VerticalOptions="FillAndExpand" HeightRequest="400" CornerRadius="35">
                                 <Grid>
                                     <StackLayout Orientation="Horizontal" Margin="0">

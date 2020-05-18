@@ -21,8 +21,8 @@ namespace Flupper.Services
         /// <param name="user"></param>
         public static void UploadUser(User user)
         {
-            string json = JsonConvert.SerializeObject(user);
-            byte[] jsonArr = System.Text.Encoding.UTF8.GetBytes(json);
+            var json = JsonConvert.SerializeObject(user);
+            var jsonArr = System.Text.Encoding.UTF8.GetBytes(json);
             using(Stream stream = new MemoryStream(jsonArr))
                 UploadData(stream, user);
         }
@@ -41,7 +41,6 @@ namespace Flupper.Services
             var blob = container.GetBlobClient(user.Login + ".json");
             blob.Upload(stream, overwrite: true);
             blob.SetHttpHeaders(new BlobHttpHeaders() { ContentType = "application/json" });
-
         }
 
         /// <summary>

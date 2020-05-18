@@ -164,9 +164,9 @@
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.XPath.XmlDocument.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll
--r=/Users/glebburstejn/.nuget/packages/azure.core/1.2.0/lib/netstandard2.0/Azure.Core.dll
--r=/Users/glebburstejn/.nuget/packages/azure.storage.blobs/12.4.1/lib/netstandard2.0/Azure.Storage.Blobs.dll
--r=/Users/glebburstejn/.nuget/packages/azure.storage.common/12.4.0/lib/netstandard2.0/Azure.Storage.Common.dll
+-r=/Users/glebburstejn/.nuget/packages/azure.core/1.2.1/lib/netstandard2.0/Azure.Core.dll
+-r=/Users/glebburstejn/.nuget/packages/azure.storage.blobs/12.4.2/lib/netstandard2.0/Azure.Storage.Blobs.dll
+-r=/Users/glebburstejn/.nuget/packages/azure.storage.common/12.4.1/lib/netstandard2.0/Azure.Storage.Common.dll
 -r=/Users/glebburstejn/.nuget/packages/dryioc.dll/4.0.7/lib/netstandard2.0/DryIoc.dll
 -r=/Users/glebburstejn/.nuget/packages/microsoft.bcl.asyncinterfaces/1.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
 -r=/Users/glebburstejn/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll
@@ -224,7 +224,7 @@
 -r=/Users/glebburstejn/.nuget/packages/xamarin.forms/4.6.0.726/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/glebburstejn/.nuget/packages/xamarin.forms/4.6.0.726/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/glebburstejn/.nuget/packages/xamarin.forms/4.6.0.726/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/glebburstejn/.nuget/packages/xamarin.forms.pancakeview/1.3.7/lib/xamarinios10/Xamarin.Forms.PancakeView.dll
+-r=/Users/glebburstejn/.nuget/packages/xamarin.forms.pancakeview/1.4.2/lib/xamarinios10/Xamarin.Forms.PancakeView.dll
 -r=/Users/glebburstejn/.nuget/packages/xameffects/1.6.3/lib/Xamarin.IOS/XamEffects.dll
 -r=/Users/glebburstejn/.nuget/packages/xameffects/1.6.3/lib/Xamarin.IOS/XamEffects.iOS.dll
 -r=/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/bin/Debug/netstandard2.0/Flupper.dll

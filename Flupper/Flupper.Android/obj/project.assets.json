@@ -1645,8 +1645,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Azure.Storage.Blobs": "12.4.1",
-          "Azure.Storage.Common": "12.4.0",
+          "Azure.Storage.Blobs": "12.4.2",
+          "Azure.Storage.Common": "12.4.1",
           "Prism.DryIoc.Forms": "7.2.0.1422",
           "Refractored.MvvmHelpers": "1.3.0",
           "Rg.Plugins.Popup": "2.0.0.2",
@@ -1655,7 +1655,7 @@
           "Xam.Plugins.Notifier": "3.0.1",
           "XamEffects": "1.6.3",
           "Xamarin.Forms": "4.6.0.726",
-          "Xamarin.Forms.PancakeView": "1.3.7"
+          "Xamarin.Forms.PancakeView": "1.4.2"
         },
         "compile": {
           "bin/placeholder/Flupper.dll": {}
@@ -6293,5 +6293,37 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Azure.Storage.Blobs from 12.4.2 to 12.4.1. Reference the package directly from the project to select a different version. \n Flupper.Android -> Flupper -> Azure.Storage.Blobs (>= 12.4.2) \n Flupper.Android -> Azure.Storage.Blobs (>= 12.4.1)",
+      "libraryId": "Azure.Storage.Blobs",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Azure.Storage.Common from 12.4.1 to 12.4.0. Reference the package directly from the project to select a different version. \n Flupper.Android -> Flupper -> Azure.Storage.Common (>= 12.4.1) \n Flupper.Android -> Azure.Storage.Common (>= 12.4.0)",
+      "libraryId": "Azure.Storage.Common",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms.PancakeView from 1.4.2 to 1.3.7. Reference the package directly from the project to select a different version. \n Flupper.Android -> Flupper -> Xamarin.Forms.PancakeView (>= 1.4.2) \n Flupper.Android -> Xamarin.Forms.PancakeView (>= 1.3.7)",
+      "libraryId": "Xamarin.Forms.PancakeView",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

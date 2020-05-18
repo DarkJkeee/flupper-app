@@ -18,19 +18,8 @@ namespace Flupper.ViewModels
             : base(navigationService)
         {
             this.navigationService = navigationService;
-            NavigateToLogin = new DelegateCommand(NavigateToLoginCall);
-            NavigateToRegister = new DelegateCommand(NavigateToRegisterCall);
+            NavigateToLogin = new DelegateCommand(async () => navigationService.NavigateAsync("LoginPage"));
+            NavigateToRegister = new DelegateCommand(async () => navigationService.NavigateAsync("RegisterPage"));
         }
-
-        private async void NavigateToLoginCall()
-        {
-            await navigationService.NavigateAsync("LoginPage");
-        }
-
-        private async void NavigateToRegisterCall()
-        {
-            await navigationService.NavigateAsync("RegisterPage");
-        }
-
     }
 }

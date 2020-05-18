@@ -33,3 +33,6 @@ C:/Users/glebburstejn/source/repos/Flupper/Flupper/Flupper/obj/Debug/netstandard
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper/obj/Debug/netstandard2.0/Views/PopupInfoPage.xaml.g.cs
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper/obj/Debug/netstandard2.0/Views/PopupNewTeamPage.xaml.g.cs
 /Users/glebburstejn/Projects/Flupper/Flupper/Flupper/obj/Debug/netstandard2.0/Views/ProfilePage.xaml.g.cs
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/bin/Debug/netstandard2.0/Xamarin.iOS.dll
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/bin/Debug/netstandard2.0/Xamarin.iOS.pdb
+/Users/glebburstejn/Projects/Flupper/Flupper/Flupper/obj/Debug/netstandard2.0/Flupper.csproj.CopyComplete

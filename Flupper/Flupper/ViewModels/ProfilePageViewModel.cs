@@ -10,7 +10,6 @@ namespace Flupper.ViewModels
         public ProfilePageViewModel(INavigationService navigationService) : base(navigationService)
         {
             this.navigationService = navigationService;
-
         }
     }
 }

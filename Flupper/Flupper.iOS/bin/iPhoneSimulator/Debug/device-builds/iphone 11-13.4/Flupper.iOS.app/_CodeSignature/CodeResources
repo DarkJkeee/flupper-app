@@ -6,15 +6,15 @@
 	<dict>
 		<key>Azure.Core.dll</key>
 		<data>
-		EHQHqQvS+T3SPehWMOVHukBIS1E=
+		+e0yfd9gCLE6KtoqfdVCJ2G8wDs=
 		</data>
 		<key>Azure.Storage.Blobs.dll</key>
 		<data>
-		t2+YcQAwKesCI36mYj7rofti7b4=
+		LgDHVvAgx/Bj5DFCG1FAAmAE0FA=
 		</data>
 		<key>Azure.Storage.Common.dll</key>
 		<data>
-		CYbfuQjAEaUJQ3a4v8z+L3YvnAg=
+		bQj9BTb0cbRKcI8C7rx2nZLS4kk=
 		</data>
 		<key>CatalogueIcon.png</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Flupper.dll</key>
 		<data>
-		rd4s4uafBK1pXWKJEsGJ22u8kNs=
+		l6tDZTo4HMJr0QVSFIuWe/9UVOM=
 		</data>
 		<key>Flupper.iOS.exe</key>
 		<data>
-		eIF4sc9xQuAfE6rmgdrW0EMQdkQ=
+		us4OGItaznohE9brx/xZQBDZELE=
 		</data>
 		<key>Flupper.iOS.exe.mdb</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Flupper.iOS.pdb</key>
 		<data>
-		moY1tpEJYHlY7iZe9FtKEn5gGpM=
+		opOEf2kqsmdgHvek4wOX+WZmM7M=
 		</data>
 		<key>Flupper.pdb</key>
 		<data>
-		5cFEzmZW2gzYrn7zz/5gVjGDzhE=
+		EHJT49jJle9EIHBPyBG+XJC6Hz0=
 		</data>
 		<key>FlupperLogo.png</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SQB3bBLzvlFY5//HA3w8Txlz6X4=
+		Kvh5huIsE9QCBQSzhEuvblF/Pto=
 		</data>
 		<key>IphonePlus.png</key>
 		<data>
@@ -490,7 +490,7 @@
 		</data>
 		<key>Xamarin.Forms.PancakeView.dll</key>
 		<data>
-		zAoyExnVz4QcuVfqlWKfPlL4cdY=
+		aDd+TlVvySWuQbvBw3tm2+3OEFQ=
 		</data>
 		<key>Xamarin.Forms.Platform.dll</key>
 		<data>
@@ -703,33 +703,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EHQHqQvS+T3SPehWMOVHukBIS1E=
+			+e0yfd9gCLE6KtoqfdVCJ2G8wDs=
 			</data>
 			<key>hash2</key>
 			<data>
-			LoZQkYNzbKR4iKdr8LdDsvFLmq+5gIQOKphMlaxvntc=
+			I7FZoGcAuX6vIBrvalBognRQQ352ZkTjlUwyVVJUvFA=
 			</data>
 		</dict>
 		<key>Azure.Storage.Blobs.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t2+YcQAwKesCI36mYj7rofti7b4=
+			LgDHVvAgx/Bj5DFCG1FAAmAE0FA=
 			</data>
 			<key>hash2</key>
 			<data>
-			IN1T2ck6kCG9zRkjpRnM7/SHw3c+B/FDVyICDaErV0U=
+			X9y+7KSbW3QJ8BwxRcOmyh/WIbEzaw2TyC8lzmZ+3ic=
 			</data>
 		</dict>
 		<key>Azure.Storage.Common.dll</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CYbfuQjAEaUJQ3a4v8z+L3YvnAg=
+			bQj9BTb0cbRKcI8C7rx2nZLS4kk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+7o346ztYLennBelkDjzJbURwPqMN6rKuCB9pwxGu+k=
+			NTI3yMf9BDGPTdb0+9QnJqJAMmvr36C+RWcqDxUQcK0=
 			</data>
 		</dict>
 		<key>CatalogueIcon.png</key>
@@ -813,22 +813,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rd4s4uafBK1pXWKJEsGJ22u8kNs=
+			l6tDZTo4HMJr0QVSFIuWe/9UVOM=
 			</data>
 			<key>hash2</key>
 			<data>
-			2iqtLc9rAkTKFSaEfV/6WYrE0OLaAwQS/FF/BK8fEoA=
+			b9rGTXV/boEF+Pnietb3d4PEDgyuSwLDJ41wCeFfHFM=
 			</data>
 		</dict>
 		<key>Flupper.iOS.exe</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eIF4sc9xQuAfE6rmgdrW0EMQdkQ=
+			us4OGItaznohE9brx/xZQBDZELE=
 			</data>
 			<key>hash2</key>
 			<data>
-			tSNuHZGZZEL+9IARsrw56ZpbQZZy+FbBWFCl1sekIgU=
+			KkECqo4hsZldb1tyueB9r2FqzZ1T7G259QwQyROtlpc=
 			</data>
 		</dict>
 		<key>Flupper.iOS.exe.mdb</key>
@@ -846,22 +846,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			moY1tpEJYHlY7iZe9FtKEn5gGpM=
+			opOEf2kqsmdgHvek4wOX+WZmM7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			3SL1N5D2axiSMwcmI2anrmtmblE6ajtDJQ1C1PBxnTw=
+			YjeTcj/eyTc7eJUvmttOE8bLvGSKpoVqntepJem2g8s=
 			</data>
 		</dict>
 		<key>Flupper.pdb</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5cFEzmZW2gzYrn7zz/5gVjGDzhE=
+			EHJT49jJle9EIHBPyBG+XJC6Hz0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qq52nUx7u+j9N5vdyiXjtsjwL49SRn7c5Zqur72tk/4=
+			dJJ47DC5EsSjsrcxdokCNoWO4LQGkAkRnN9Dl5eMcTY=
 			</data>
 		</dict>
 		<key>FlupperLogo.png</key>
@@ -2012,11 +2012,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zAoyExnVz4QcuVfqlWKfPlL4cdY=
+			aDd+TlVvySWuQbvBw3tm2+3OEFQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			5QMY0dNjH2XUgqve7wHuKwNllnG2hYu40oRdzDJkeVI=
+			FlAKi/elNAV0vDlUhCXEoeZKNMq2jx4lNHtVx1FCEfE=
 			</data>
 		</dict>
 		<key>Xamarin.Forms.Platform.dll</key>

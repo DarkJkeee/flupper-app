@@ -44,15 +44,13 @@ namespace Flupper.ViewModels
         }
 
         public string SelectedMember { get; set; } = string.Empty;
-
-
         public string SelectedColor { get; set; }
 
-        private string Cardname;
+        private string cardName;
         public string CardName
         {
-            get => Cardname;
-            set { SetProperty(ref Cardname, value); }
+            get => cardName;
+            set { SetProperty(ref cardName, value); }
         }
 
         public DelegateCommand CreateNewCard { get; set; }

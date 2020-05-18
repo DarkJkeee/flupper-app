@@ -45,7 +45,7 @@ namespace Flupper.ViewModels
             }
             catch(Exception)
             {
-                await Application.Current.MainPage.DisplayAlert("Invalid value", "Login or password isn't correct!", "OK");
+                await Application.Current.MainPage.DisplayAlert("Invalid value", "Login or password is incorrect!", "OK");
                 return;
             }
 
@@ -62,7 +62,7 @@ namespace Flupper.ViewModels
             if (user.Password == Password)
                 await navigationService.NavigateAsync("/NavigationPage/BoardsListPage", navParameters);
             else
-                await Application.Current.MainPage.DisplayAlert("Invalid value", "Login or password isn't correct!", "OK");
+                await Application.Current.MainPage.DisplayAlert("Invalid value", "Login or password is incorrect!", "OK");
         }
     }
 }

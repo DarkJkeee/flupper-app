@@ -9,6 +9,8 @@ using Flupper.ViewModels;
 using Rg.Plugins.Popup.Pages;
 using Xamarin.Forms;
 using Plugin.LocalNotifications;
+using UserNotifications;
+using Rg.Plugins.Popup.Extensions;
 
 namespace Flupper.Views
 {
@@ -19,7 +21,7 @@ namespace Flupper.Views
 
         public DateTime MinimumDate { get; set; }
 
-        private DateTime date;
+        private DateTime date = DateTime.Now.Date;
         public DateTime Date
         {
             get => date;
@@ -29,6 +31,7 @@ namespace Flupper.Views
                 OnPropertyChanged();
             }
         }
+
         public TimeSpan Time { get; set; }
 
         public PopupNotificationPage(User user, Card card)
@@ -37,8 +40,6 @@ namespace Flupper.Views
             MinimumDate = DateTime.Now;
             this.card = card;
             this.user = user;
-            Date = card.NotificationDate;
-            Time = card.NotificationDate.TimeOfDay;
             InitializeComponent();
         }
 
@@ -114,12 +115,11 @@ namespace Flupper.Views
             return base.OnBackgroundClicked();
         }
 
-        void Button_Clicked(System.Object sender, System.EventArgs e)
+        async void Button_Clicked(System.Object sender, System.EventArgs e)
         {
+            await Navigation.PopPopupAsync();
             card.NotificationDate = Date + Time;
             AzureDataBase.UploadUser(user);
-
-            CrossLocalNotifications.Current.Show(card.Name, "body", 1, card.NotificationDate);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

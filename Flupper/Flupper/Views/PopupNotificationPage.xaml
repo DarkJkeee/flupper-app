@@ -25,18 +25,18 @@
         <Frame BackgroundColor="White" HorizontalOptions="Center" Margin="15">
             <StackLayout Padding="0" Margin="0">
                 <Label FontSize="16" FontAttributes="Bold"
-                       Text="Create a notification"
+                       Text="NOTIFICATION"
                        TextColor="Black"/>
 
-                <Label Margin="0,10,0,0" Text="Choose a date:"/>
+                <Label Margin="0,10,0,0" Text="Choose date:"/>
                 <DatePicker MinimumDate="{Binding MinimumDate}"
                     Date="{Binding Date}"/>
-                <Label Text="And time:"/>
+                <Label Text="And time:" Margin="0, 10, 0, 0"/>
                 <TimePicker Time="{Binding Time}"/>
 
                 <Button
                     Padding="5"
-                    Margin="0,10,0,0"
+                    Margin="0,20,0,0"
                     BackgroundColor="{StaticResource BackgroundColor}"
                     Clicked="Button_Clicked"
                     FontSize="16" FontAttributes="Bold"

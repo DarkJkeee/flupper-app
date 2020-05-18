@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Flupper.Models;
 using Flupper.Services;
+using Rg.Plugins.Popup.Extensions;
 using Rg.Plugins.Popup.Pages;
 using Xamarin.Forms;
 
@@ -72,8 +73,9 @@ namespace Flupper.Views
             Name = String.Empty;
         }
 
-        void Button_Clicked_1(System.Object sender, System.EventArgs e)
+        async void Button_Clicked_1(System.Object sender, System.EventArgs e)
         {
+            await Navigation.PopPopupAsync();
             team.Members = Members;
             team.Name = TeamName;
             user.Teams.Add(team);
